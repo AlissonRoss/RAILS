@@ -1,0 +1,14 @@
+<h1>Hello from Ruby and RAILS- Delta College Ruby on RAILS Bootcamp</h1>
+
+<bold> It is now </bold> <%= @time %>
+<p>Addition of 1+2=<%= 1+2 %></p>
+<p>Concatenation:<%= "\tcow"+"boy"%></p>
+<p>Time in one hour:<%= 1.hour.from_now.localtime %></p>
+<p>
+<% for file in @files %>
+	file name is: <%=file %>
+<% end %>
+</p>
+
+<p>Time to say <%=link_to "Good Bye", say_goodbye_path %>!</p>
+<center><p>Created by Alisson Leiva</p><center>
